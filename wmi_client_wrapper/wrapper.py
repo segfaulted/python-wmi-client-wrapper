@@ -7,7 +7,7 @@ directly to end-users.
 
 import csv
 import sh
-from StringIO import StringIO
+from io import StringIO
 
 class WmiClientWrapper(object):
     """

@@ -1,1 +1,1 @@
-from wrapper import WmiClientWrapper
+from .wrapper import WmiClientWrapper

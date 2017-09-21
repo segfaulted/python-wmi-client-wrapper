@@ -35,6 +35,7 @@ setup(
     include_package_data=True,
     install_requires=requires,
     platforms="any",
+    use_2to3=True,
     classifiers=[
         "License :: OSI Approved :: BSD License",
         "Topic :: Software Development :: Libraries :: Python Modules",
